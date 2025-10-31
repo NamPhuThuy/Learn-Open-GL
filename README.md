@@ -69,5 +69,34 @@ glBindObject(GL_WINDOW_TARGET, 0);
 > The code samples provided so far are only approximations of how OpenGL operates; throughout the book you will come across enough actual examples.
 
 ## 2.6 Additional Resources
-- www.opengl.org/: official website of OpenGL.
-• www.opengl.org/registry/: hosts the OpenGL specifications and extensions for all OpenGL versions.
+- [Official website of OpenGL](www.opengl.org/)
+- [Hosts the OpenGL specifications and extensions for all OpenGL versions](www.opengl.org/registry/)
+
+# 3: Creating a window
+## 3.1 GLFW
+- GLFW is a library, written in C, specifically targeted at OpenGL
+
+> We’ll be building all libraries as 64-bit binaries so make sure to get the 64-bit binaries if you’re using their pre-compiled binaries.
+
+
+## 3.2: Building GLFW
+
+> Compiling the library from the source code guarantees that the resulting library is perfectly tailored for your CPU/OS, a luxury pre-compiled binaries don’t always provide (sometimes, precompiled binaries are not available for your system)
+
+-  The problem with providing source code to the open world however is that not everyone uses the same IDE or build system for developing their application, which means the project/solution files provided may not be compatible with other people’s setup. So people then have to setup their own project/solution with the given .c/.cpp and .h/.hpp files, which is cumbersome. Exactly for those reasons there is a tool called **CMake**.
+
+**CMake**
+- CMake is a tool that can generate project/solution files of the user’s choice (e.g. Visual Studio, Code::Blocks, Eclipse) from a collection of source code files using pre-defined CMake scripts. This allows us to generate a Visual Studio 2019 project file from GLFW’s source package which we can use to compile the library. 
+
+**Building GLFW**
+- Step 1: Download GLFW source code
+  - [Github](https://github.com/glfw/glfw)
+  - [Forked ver](https://github.com/NamPhuThuy/GLFW-Library)
+- Step 2: Download and install CMake
+  - [CMake download](https://cmake.org/download/)
+- Step 3: Install Visual Studio Code
+- Step 4:
+  - Open CMake
+  - Choose the _source code folder_ and the _build folder_
+  - 
+
