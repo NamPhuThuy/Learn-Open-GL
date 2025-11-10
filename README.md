@@ -2,6 +2,7 @@
 
 # Source 
 [LearnOpenGL](https://learnopengl.com/Introduction)
+EBook: [Ebook - OpenGL](https://learnopengl.com/book/book_pdf.pdf)
 
 # Part 1: Getting Started
 ## 2: OpenGL
